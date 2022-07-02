@@ -1,0 +1,12 @@
+C:\asp_projects\OnionApp\OnionApp.Domain.Core\bin\Debug\net6.0\OnionApp.Domain.Core.deps.json
+C:\asp_projects\OnionApp\OnionApp.Domain.Core\bin\Debug\net6.0\OnionApp.Domain.Core.dll
+C:\asp_projects\OnionApp\OnionApp.Domain.Core\bin\Debug\net6.0\OnionApp.Domain.Core.pdb
+C:\asp_projects\OnionApp\OnionApp.Domain.Core\obj\Debug\net6.0\OnionApp.Domain.Core.csproj.AssemblyReference.cache
+C:\asp_projects\OnionApp\OnionApp.Domain.Core\obj\Debug\net6.0\OnionApp.Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\asp_projects\OnionApp\OnionApp.Domain.Core\obj\Debug\net6.0\OnionApp.Domain.Core.AssemblyInfoInputs.cache
+C:\asp_projects\OnionApp\OnionApp.Domain.Core\obj\Debug\net6.0\OnionApp.Domain.Core.AssemblyInfo.cs
+C:\asp_projects\OnionApp\OnionApp.Domain.Core\obj\Debug\net6.0\OnionApp.Domain.Core.csproj.CoreCompileInputs.cache
+C:\asp_projects\OnionApp\OnionApp.Domain.Core\obj\Debug\net6.0\OnionApp.Domain.Core.dll
+C:\asp_projects\OnionApp\OnionApp.Domain.Core\obj\Debug\net6.0\refint\OnionApp.Domain.Core.dll
+C:\asp_projects\OnionApp\OnionApp.Domain.Core\obj\Debug\net6.0\OnionApp.Domain.Core.pdb
+C:\asp_projects\OnionApp\OnionApp.Domain.Core\obj\Debug\net6.0\ref\OnionApp.Domain.Core.dll

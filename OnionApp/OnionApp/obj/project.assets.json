@@ -1,0 +1,137 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "OnionApp.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/OnionApp.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnionApp.Domain.Core.dll": {}
+        }
+      },
+      "OnionApp.Domain.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "OnionApp.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OnionApp.Domain.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnionApp.Domain.Interfaces.dll": {}
+        }
+      },
+      "OnionApp.Services.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "OnionApp.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OnionApp.Services.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnionApp.Services.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OnionApp.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../OnionApp.Domain.Core/OnionApp.Domain.Core.csproj",
+      "msbuildProject": "../OnionApp.Domain.Core/OnionApp.Domain.Core.csproj"
+    },
+    "OnionApp.Domain.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../OnionApp.Domain.Interfaces/OnionApp.Domain.Interfaces.csproj",
+      "msbuildProject": "../OnionApp.Domain.Interfaces/OnionApp.Domain.Interfaces.csproj"
+    },
+    "OnionApp.Services.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../OnionApp.Services.Interfaces/OnionApp.Services.Interfaces.csproj",
+      "msbuildProject": "../OnionApp.Services.Interfaces/OnionApp.Services.Interfaces.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "OnionApp.Domain.Interfaces >= 1.0.0",
+      "OnionApp.Services.Interfaces >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Bek\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\asp_projects\\OnionApp\\OnionApp\\OnionApp.csproj",
+      "projectName": "OnionApp",
+      "projectPath": "C:\\asp_projects\\OnionApp\\OnionApp\\OnionApp.csproj",
+      "packagesPath": "C:\\Users\\Bek\\.nuget\\packages\\",
+      "outputPath": "C:\\asp_projects\\OnionApp\\OnionApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Bek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\asp_projects\\OnionApp\\OnionApp.Domain.Interfaces\\OnionApp.Domain.Interfaces.csproj": {
+              "projectPath": "C:\\asp_projects\\OnionApp\\OnionApp.Domain.Interfaces\\OnionApp.Domain.Interfaces.csproj"
+            },
+            "C:\\asp_projects\\OnionApp\\OnionApp.Services.Interfaces\\OnionApp.Services.Interfaces.csproj": {
+              "projectPath": "C:\\asp_projects\\OnionApp\\OnionApp.Services.Interfaces\\OnionApp.Services.Interfaces.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
